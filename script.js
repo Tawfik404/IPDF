@@ -75,4 +75,8 @@ img.addEventListener("change", function (event) {
     } else {
         console.log("No file selected.");
     }
+
+    retry.addEventListener("click",function(){
+        location.reload()
+    })
 });
